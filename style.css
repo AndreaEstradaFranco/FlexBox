@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+ width: 900px;
+ height: 700px;
+ border: 7px solid rgb(102, 24, 92);
+ border-radius: 20px;
+ background-image: url(img/caroline-hernandez-tJHU4mGSLz4-unsplash.jpg);
+ background-size: 200%;
+ background-position: center;
+}
+
+.rect {
+  width: 450px;
+  height: 700px;
+  background-color: rgba(102, 24, 92, 0.63);
+  position: relative;
+  left: 225px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+#main {
+  max-width: 100%;
+  filter: blur(10px);
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+}
