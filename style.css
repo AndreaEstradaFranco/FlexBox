@@ -20,7 +20,7 @@
 .card {
  width: 900px;
  height: 700px;
- border: 7px solid rgb(102, 24, 92);
+ border: 7px solid rgba(102, 24, 92, 1);;
  border-radius: 20px;
  background-image: url(img/caroline-hernandez-tJHU4mGSLz4-unsplash.jpg);
  background-size: 200%;
@@ -32,8 +32,21 @@
   height: 700px;
   background-color: rgba(102, 24, 92, 0.63);
   position: relative;
-  left: 225px;
+  left: 250px;
   border-radius: 0px 20px 20px 0px;
+}
+
+.dots {
+  width: 50px;
+  height: 700px;
+  background-color: white;
+  position: relative;
+  right: 650px;
+  border-radius: 20px 0px 0px 20px;
+  border-right: 4px dashed rgb(102, 24, 92);
+  border-left: 7px solid rgb(102, 24, 92);
+  border-top: 7px solid rgb(102, 24, 92);
+  border-bottom: 7px solid rgb(102, 24, 92);
 }
 
 #main {
